@@ -12,10 +12,11 @@
 
     <string name="tea_list">Tea List</string>
 
-    <string name="oolong_title">OOLONG</string>
-    <string name="jasmine_title">JASMINE</string>
+    <string name="cold_title">COLD BREW</string>
+    <string name="mocha_title">MOCHA</string>
 
-    <string name="ooolong_desc">Oolong is a traditional semi-oxidized Chinese tea produced through a process that includes withering the leaves under strong sun and allowing some oxidation to occur before curling and twisting.</string>
-    <string name="jasmine_desc">Jasmine tea is tea scented with the aroma of jasmine blossoms. Jasmine tea can have any base as the tea base; however, green, white tea and black tea are regularly used.</string>
+    <string name="cold_desc">old brew is a coffee brewing method where coarse coffee grounds are steeped in cool or room-temperature water for 12 to 24 hours, resulting in a concentrated coffee extract with a smoother, less acidic, and sweeter flavor than conventionally brewed coffee.</string>
+    <string name="mocha_desc">"Mocha" refers to a chocolate and coffee flavoring or a drink made with espresso, chocolate, and steamed milk, originating from the port of Mocha, Yemen, which historically traded coffee with a chocolatey flavor. </string>
 
+    <string name="back_button">Back</string>
 </resources>

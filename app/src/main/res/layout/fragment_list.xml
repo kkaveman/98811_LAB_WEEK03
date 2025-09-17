@@ -43,28 +43,18 @@
             android:text="@string/latte_title"/>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/tea_list"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginVertical="20dp"
-            android:background="?android:attr/dividerVertical"/>
-        <TextView
-            android:id="@+id/jasmine"
+            android:id="@+id/cold_brew"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:text="@string/jasmine_title"/>
+            android:text="@string/cold_title"/>
 
         <TextView
-            android:id="@+id/oolong"
+            android:id="@+id/mocha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:text="@string/oolong_title"/>
+            android:text="@string/mocha_title"/>
 
 
     </LinearLayout>

@@ -6,7 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-
+import android.widget.Button
+import androidx.navigation.fragment.findNavController
 
 class DetailFragment : Fragment() {
     // TODO: Rename and change types of parameters
@@ -30,6 +31,10 @@ class DetailFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val coffeeId = arguments?.getInt(COFFEE_ID,0) ?: 0
         setCoffeeData(coffeeId)
+        view.findViewById<Button>(R.id.back_button).setOnClickListener {
+            // 👇 Pop current fragment off back stack → returns to previous destination
+            findNavController().popBackStack()
+        }
     }
 
     fun setCoffeeData(id: Int) {
@@ -48,29 +53,20 @@ class DetailFragment : Fragment() {
                 coffeeTitle?.text = getString(R.string.latte_title)
                 coffeeDesc?.text = getString(R.string.latte_desc)
             }
+            R.id.cold_brew -> {
+                coffeeTitle?.text = getString(R.string.cold_title)
+                coffeeDesc?.text = getString(R.string.cold_desc)
+            }
+            R.id.mocha -> {
+                coffeeTitle?.text = getString(R.string.mocha_title)
+                coffeeDesc?.text = getString(R.string.mocha_desc)
+            }
         }
     }
 
     companion object {
         private const val COFFEE_ID = "COFFEE_ID"
 
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment DetailFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(coffeeId: Int) =
-            DetailFragment().apply {
-                arguments = Bundle().apply {
-                    putInt(COFFEE_ID, coffeeId)
-
-                }
-            }
     }
 }
 

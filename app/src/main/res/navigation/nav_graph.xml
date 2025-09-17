@@ -24,7 +24,7 @@
         android:id="@+id/coffeeDetail"
         android:name="com.example.a98811_lab_week03.DetailFragment"
         android:label="Detail"
-        tools:layout="@layout/fragment_detail"/>
+        tools:layout="@layout/fragment_detail" />
 
 
 </navigation>
