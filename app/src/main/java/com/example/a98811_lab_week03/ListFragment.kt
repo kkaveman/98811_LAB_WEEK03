@@ -34,13 +34,13 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val coffeeList = listOf<View>(
+        val drinksList = listOf<View>(
             view.findViewById(R.id.affogato),
             view.findViewById(R.id.americano),
             view.findViewById(R.id.latte)
         )
 
-        coffeeList.forEach { coffee ->
+        drinksList.forEach { coffee ->
             val fragmentBundle = Bundle()
             fragmentBundle.putInt(COFFEE_ID, coffee.id)
             coffee.setOnClickListener(
