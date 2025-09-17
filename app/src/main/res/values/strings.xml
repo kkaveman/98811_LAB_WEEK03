@@ -9,4 +9,13 @@
     <string name="latte_title">CAFFE LATTE</string>
     <string name="latte_desc">a tall, mid \'milk coffee\' (about 100-150ml). an espresso with steamed milk and only a little milk foam.</string>
     <string name="coffee_list">Coffee List</string>
+
+    <string name="tea_list">Tea List</string>
+
+    <string name="oolong_title">OOLONG</string>
+    <string name="jasmine_title">JASMINE</string>
+
+    <string name="ooolong_desc">Oolong is a traditional semi-oxidized Chinese tea produced through a process that includes withering the leaves under strong sun and allowing some oxidation to occur before curling and twisting.</string>
+    <string name="jasmine_desc">Jasmine tea is tea scented with the aroma of jasmine blossoms. Jasmine tea can have any base as the tea base; however, green, white tea and black tea are regularly used.</string>
+
 </resources>
