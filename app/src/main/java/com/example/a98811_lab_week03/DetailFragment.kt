@@ -5,7 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.navigation.Navigation
 
 
@@ -35,8 +34,10 @@ class ListFragment : Fragment(){
                     R.id.coffee_id_action, fragmentBundle)
             )
         }
+
     }
     companion object {
         const val COFFEE_ID = "COFFEE_ID"
     }
+
 }
